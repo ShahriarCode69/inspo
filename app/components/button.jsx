@@ -1,20 +1,29 @@
 import React from "react";
 
-export default function Button({ variant = "primary", children = "Hover me" }) {
-	const isPrimary = variant === "primary";
-
-	const baseStyles =
-		"relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md px-6 font-medium transition-colors duration-200 cursor-pointer";
-
+export default function Button({
+	variant = "primary",
+	children = "Hover me",
+	className = "",
+}) {
 	const variants = {
 		primary:
 			"group bg-gradient-to-br from-[#E3EF26] from-[0%] via-[#076653] via-[78%] to-[#0C342C] to-[100%] text-white",
 		secondary:
 			"bg-transparent text-black border-2 border-neutral-300/30 transition-all duration-300 hover:font-semibold",
+		black:
+			"bg-black text-white border border-black/10 hover:bg-black/90 transition-colors duration-200",
 	};
 
+	const resolvedVariant = variants[variant] ? variant : "primary";
+	const isPrimary = resolvedVariant === "primary";
+
+	const baseStyles =
+		"relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md px-6 font-medium cursor-pointer";
+
 	return (
-		<button className={`${baseStyles} ${variants[variant]}`}>
+		<button
+			className={`${baseStyles} ${variants[resolvedVariant]} ${className}`.trim()}
+		>
 			<p>{children}</p>
 
 			{isPrimary && (

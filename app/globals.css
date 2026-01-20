@@ -13,6 +13,7 @@
 
 body {
 	font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f7faf7;
 	color: var(--ink);
 }
 

@@ -29,7 +29,7 @@ const COURSES = [
 
 export default function FeaturedCourses() {
   return (
-    <section id="courses" className="max-w-6xl mx-auto px-6 pt-24 pb-20">
+    <section id="courses" className="max-w-[1300px] mx-auto px-6 pt-24 pb-20">
       <div className="flex items-center justify-between mb-10">
         <h2 className="text-3xl">Featured Courses</h2>
         <a
@@ -45,10 +45,10 @@ export default function FeaturedCourses() {
         {COURSES.map((course) => (
           <div
             key={course.title}
-            className="card rounded-3xl p-6 space-y-4 bg-white/80 border border-accent/10 shadow-sm"
+            className="card rounded-2xl p-6 space-y-4 bg-white/80 border border-accent/10"
           >
             <div
-              className={`h-40 rounded-2xl bg-gradient-to-br ${course.gradient} flex items-center justify-center text-4xl text-accent`}
+              className={`h-44 rounded-2xl bg-gradient-to-br ${course.gradient} flex items-center justify-center text-4xl text-accent`}
             >
               {course.badge}
             </div>
