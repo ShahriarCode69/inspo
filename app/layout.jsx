@@ -1,4 +1,4 @@
-import { Plus_Jakarta_Sans, Newsreader } from "next/font/google";
+import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 
@@ -8,10 +8,10 @@ const plusJakarta = Plus_Jakarta_Sans({
 	weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const newsreader = Newsreader({
+const playfair = Playfair_Display({
 	subsets: ["latin"],
-	variable: "--font-newsreader",
-	weight: ["300", "400", "500", "600", "700"],
+	variable: "--font-playfair",
+	weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata = {
@@ -23,9 +23,9 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body
-				className={`${plusJakarta.variable} ${newsreader.variable} antialiased`}
+				className={`${plusJakarta.variable} ${playfair.variable} antialiased`}
 			>
-        <Navbar/>
+				<Navbar />
 				{children}
 			</body>
 		</html>

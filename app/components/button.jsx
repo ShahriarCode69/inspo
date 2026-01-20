@@ -10,7 +10,7 @@ export default function Button({ variant = "primary", children = "Hover me" }) {
 		primary:
 			"group bg-gradient-to-br from-[#E3EF26] from-[0%] via-[#076653] via-[78%] to-[#0C342C] to-[100%] text-white",
 		secondary:
-			"bg-transparent text-black border border-neutral-300 transition-all duration-300 hover:font-semibold",
+			"bg-transparent text-black border-2 border-neutral-300/30 transition-all duration-300 hover:font-semibold",
 	};
 
 	return (

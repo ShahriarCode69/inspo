@@ -1,26 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  
-  --font-sans: var(--font-plus-jakarta);
-	--font-serif: var(--font-newsreader);
+	--font-sans: var(--font-plus-jakarta);
+	--font-serif: var(--font-playfair);
 }
 
 @theme {
-  --color-accent: #E3EF26;
-  --color-accentSoft: #4cffdb;
-  --ink: #020907;
+	--color-accent: #076653;
+	--color-accentSoft: #4cffdb;
+	--ink: #020907;
 }
-
 
 body {
 	font-family: "Plus Jakarta Sans", sans-serif;
-	background:
-		radial-gradient(1200px 600px at 80% -10%, #eaffe8, transparent),
-		radial-gradient(800px 400px at 0% 10%, #fffef3, transparent), #f7f6fb;
 	color: var(--ink);
 }
-
 
 h1,
 h2,
@@ -28,15 +22,14 @@ h3,
 h4 {
 	font-family: "Plus Jakarta Sans", sans-serif;
 	letter-spacing: -0.02em;
-  font-weight: 800;
+	font-weight: 800;
 }
 
-span {
-  font-family: "Newsreader", serif;
-  font-weight: 800;
-  font-style: italic;
+.serif-text {
+	font-family: var(--font-playfair);
+	font-weight: 800;
+	font-style: italic;
 }
-
 
 .glass {
 	background: rgba(255, 255, 255, 0.7);
@@ -50,10 +43,6 @@ span {
 .btn-ghost {
 	border: 1px solid rgba(123, 93, 255, 0.3);
 	color: #4b3ca7;
-}
-.card {
-	background: rgba(255, 255, 255, 0.75);
-	border: 1px solid rgba(123, 93, 255, 0.18);
 }
 .why-section {
 	background: #f3f2f8;
