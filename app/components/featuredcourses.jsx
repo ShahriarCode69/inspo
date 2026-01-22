@@ -2,27 +2,27 @@ import React from "react";
 
 const COURSES = [
   {
-    title: "Startup Design Atelier",
-    badge: "F-Z",
-    gradient: "from-[#e6fff6] via-[#ccffe8] to-[#c2f1dc]",
-    description: "Craft signature products with UX depth and visual luxury.",
+    title: "Game Design Fundamentals",
+    image: "/gamecourse.png",
+    description:
+      "Prototype mechanics, build levels, and ship a polished playable demo.",
     lessons: "12 lessons",
     href: "single-course.html",
   },
   {
-    title: "Growth & Revenue Studio",
-    badge: "F-?",
-    gradient: "from-[#e5fbff] via-[#c8fff1] to-[#bdf2e5]",
-    description: "Data-driven strategies with premium brand storytelling.",
-    lessons: "9 lessons",
+    title: "Graphics & Visual Systems",
+    image: "/graphicscourse.png",
+    description:
+      "Shape brand identities with typography, color systems, and layout craft.",
+    lessons: "10 lessons",
     href: "single-course.html",
   },
   {
-    title: "Creative Leadership",
-    badge: "F-?",
-    gradient: "from-[#f0fff6] via-[#d4ffea] to-[#c9f2de]",
-    description: "Lead teams, launch projects, and scale with clarity.",
-    lessons: "7 lessons",
+    title: "Data Analytics Studio",
+    image: "/datacourse.png",
+    description:
+      "Clean datasets, uncover insights, and present dashboards that persuade.",
+    lessons: "9 lessons",
     href: "single-course.html",
   },
 ];
@@ -47,10 +47,12 @@ export default function FeaturedCourses() {
             key={course.title}
             className="card rounded-2xl p-6 space-y-4 bg-white/80 border border-accent/10"
           >
-            <div
-              className={`h-44 rounded-2xl bg-gradient-to-br ${course.gradient} flex items-center justify-center text-4xl text-accent`}
-            >
-              {course.badge}
+            <div className="h-44 rounded-2xl overflow-hidden bg-slate-100">
+              <img
+                src={course.image}
+                alt={course.title}
+                className="h-full w-full object-cover"
+              />
             </div>
             <h3 className="text-xl">{course.title}</h3>
             <p className="text-sm text-ink/60">{course.description}</p>
