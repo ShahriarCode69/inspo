@@ -41,13 +41,11 @@ export default function Testimonials() {
 	return (
 		<section
 			id="testimonials"
-			className="max-w-7xl mx-auto px-6 pb-20 overflow-x-hidden"
+			className="max-w-7xl section mx-auto px-6 pb-20 overflow-x-hidden"
 		>
 			<div className="grid lg:grid-cols-[1fr_2fr] gap-8 items-center">
 				<div className="text-center lg:text-left space-y-4">
-					<p className="text-xs uppercase tracking-[0.3em] text-[#7b5dff]">
-						Success stories
-					</p>
+					<p className="text-xs uppercase text-accent">Success stories</p>
 					<h2 className="text-3xl">Loved by founders worldwide.</h2>
 				</div>
 				<div className="relative overflow-hidden testimonial-fade">
@@ -55,7 +53,7 @@ export default function Testimonials() {
 						{[...TESTIMONIALS, ...TESTIMONIALS].map((testimonial, index) => (
 							<div
 								key={`${testimonial.name}-${index}`}
-								className="bg-white rounded-2xl p-6 min-w-[320px]"
+								className="bg-white rounded-2xl p-6 min-w-[320px] border border-accent/10"
 							>
 								<p className="text-sm">{testimonial.text}</p>
 								<div className="mt-4 flex items-center gap-3">
@@ -71,5 +69,5 @@ export default function Testimonials() {
 				</div>
 			</div>
 		</section>
-	)
+	);
 }

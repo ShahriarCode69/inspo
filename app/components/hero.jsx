@@ -83,15 +83,15 @@ export default function Hero() {
 						</p>
 						<div className="flex -space-x-2 mt-2">
 							<img
-								src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/566272928_1465357018648361_8222998112345260632_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=irwyhnQF_-cQ7kNvwHTC8_F&_nc_oc=AdknGOseE7zKTBw1Jqq_EuxZE5TiVQr2YD3vnfD3is8KqJWzITwOJkP0yUUH3nugfGE&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=gt6FY04g1_YccXB4OR2FcA&oh=00_AfqCVsJQtjjO721At1N49zYbRX5vBJvBxcJmFj1NZZRSKQ&oe=69751AE8"
-								className="w-8 h-8 rounded-full bg-accent/40"
+								src="/avatar1.jpg"
+								className="w-8 h-8 object-cover rounded-full bg-accent/40"
 							/>
 							<img
-								src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/566272928_1465357018648361_8222998112345260632_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=irwyhnQF_-cQ7kNvwHTC8_F&_nc_oc=AdknGOseE7zKTBw1Jqq_EuxZE5TiVQr2YD3vnfD3is8KqJWzITwOJkP0yUUH3nugfGE&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=gt6FY04g1_YccXB4OR2FcA&oh=00_AfqCVsJQtjjO721At1N49zYbRX5vBJvBxcJmFj1NZZRSKQ&oe=69751AE8"
+								src="/avatar2.jpg"
 								className="w-8 h-8 rounded-full bg-accent/60"
 							/>
 							<img
-								src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/566272928_1465357018648361_8222998112345260632_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=irwyhnQF_-cQ7kNvwHTC8_F&_nc_oc=AdknGOseE7zKTBw1Jqq_EuxZE5TiVQr2YD3vnfD3is8KqJWzITwOJkP0yUUH3nugfGE&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=gt6FY04g1_YccXB4OR2FcA&oh=00_AfqCVsJQtjjO721At1N49zYbRX5vBJvBxcJmFj1NZZRSKQ&oe=69751AE8"
+								src="/avatar3.jpg"
 								className="w-8 h-8 rounded-full bg-accent/80"
 							/>
 						</div>

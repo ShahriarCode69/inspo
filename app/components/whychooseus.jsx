@@ -3,7 +3,7 @@ import Button from "./button";
 
 export default function WhyChooseUs() {
 	return (
-		<section id="why" className="py-28">
+		<section id="why" className="section">
 			<div className="max-w-[1400px] mx-auto px-6">
 				<div className="text-left mb-10">
 					<h2 className="text-3xl">Why choose us</h2>
@@ -40,9 +40,9 @@ export default function WhyChooseUs() {
 							</div>
 						</div>
 						<div className="grid grid-cols-2 gap-4">
-							<div className="bg-[#f0b0f8] rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
+							<div className="bg-[#d9f8b0] rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
 								<div className="flex items-center justify-between">
-									<p className="text-xs uppercase text-[#4b3ca7]">
+									<p className="text-xs uppercase text-ink">
 										About
 									</p>
 									<span className="text-lg">↗</span>

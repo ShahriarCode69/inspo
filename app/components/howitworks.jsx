@@ -25,8 +25,8 @@ const STEPS = [
 export default function HowItWorks() {
 	return (
 		<section className="overflow-x-hidden py-16">
-			<div className="max-w-[1400px] mx-auto px-6">
-				<div className="bg-white rounded-2xl shadow-lg px-8 py-12 md:px-12 md:py-14">
+			<div className="max-w-[1400px] section mx-auto px-6">
+				<div className="rounded-2xl py-12 md:py-14">
 					<div className="space-y-10">
 						<div className="max-w-2xl space-y-4">
 							<p className="text-xs font-semibold uppercase tracking-wide text-accent">
@@ -54,7 +54,7 @@ export default function HowItWorks() {
 								<path
 									d="M0.273926 128.994C18.1073 121.994 40.8739 100.194 81.2739 96.9939C131.774 92.9939 147.774 101.994 195.774 75.9939C243.774 49.9939 282.274 40.4939 340.274 40.4939C398.274 40.4939 443.274 12.4939 453.774 0.493866"
 									stroke="#0C342C"
-									stroke-width="1.5"
+									strokeWidth="1.5"
 								/>
 							</svg>
 

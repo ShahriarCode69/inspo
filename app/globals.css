@@ -26,6 +26,10 @@ h4 {
 	font-weight: 800;
 }
 
+.section {
+  @apply pt-28 md:pt-32; /* adjust as needed */
+}
+
 .serif-text {
 	font-family: var(--font-playfair);
 	font-weight: 800;
