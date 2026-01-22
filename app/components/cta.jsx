@@ -12,7 +12,7 @@ export default function CTA() {
 				/>
 				<div className="absolute inset-0 bg-gradient-to-r from-[#11101b]/70 via-[#3b2b75]/55 to-[#c9b8ff]/30"></div>
 				<div className="relative z-10 px-6 py-16 space-y-6">
-					<h2 className="text-3xl lg:text-4xl text-white">
+					<h2 className="text-3xl lg:text-5xl text-white">
 						Join the luxury learning movement.
 					</h2>
 					<Button>

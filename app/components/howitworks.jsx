@@ -6,13 +6,13 @@ const STEPS = [
 		number: "1",
 		title: "Project Discovery Call",
 		description:
-			"Party we years to order allow asked of. We so opinion friends me message as delight.",
+			"Party we years to order allow asked of. We so opinion friends me .",
 	},
 	{
 		number: "2",
 		title: "Project Discovery Call",
 		description:
-			"His defective nor convinced residence own. Connection has put impossible own apartments boisterous.",
+			"His defective nor convinced residence own. Connection has pu",
 	},
 	{
 		number: "3",
@@ -24,61 +24,41 @@ const STEPS = [
 
 export default function HowItWorks() {
 	return (
-		<section className="overflow-x-hidden py-16">
-			<div className="max-w-[1400px] section mx-auto px-6">
-				<div className="rounded-2xl py-12 md:py-14">
-					<div className="space-y-10">
-						<div className="max-w-2xl space-y-4">
+		<section className="py-16">
+			<div className="section mx-auto max-w-[1400px] px-6">
+				<div className="space-y-22">
+					<div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+						<div className="max-w-xl space-y-3">
 							<p className="text-xs font-semibold uppercase tracking-wide text-accent">
-								Stockie operation across the world
+								Work process
 							</p>
-							<h2 className="text-3xl font-bold text-ink">
-								We have best team and best process
+							<h2 className="text-3xl font-semibold text-ink">
+								Simple steps, clear outcomes
 							</h2>
-							<p className="text-sm text-ink/70 leading-relaxed">
+							<p className="text-sm leading-relaxed text-ink/70">
 								Yet bed any for travelling assistance indulgence unpleasing. Not
 								thoughts all exercise blessing. Indulgence way everything joy.
 							</p>
-							<Button>Get Started</Button>
 						</div>
+						<Button>Get Started</Button>
+					</div>
 
-						<div className="relative">
-							<div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-gray-100" />
-							<svg
-								width="1400"
-								height="130"
-								viewBox="0 0 1400 130"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M0.273926 128.994C18.1073 121.994 40.8739 100.194 81.2739 96.9939C131.774 92.9939 147.774 101.994 195.774 75.9939C243.774 49.9939 282.274 40.4939 340.274 40.4939C398.274 40.4939 443.274 12.4939 453.774 0.493866"
-									stroke="#0C342C"
-									strokeWidth="1.5"
-								/>
-							</svg>
-
-							<div className="relative mt-14 grid grid-cols-1 md:grid-cols-3 gap-8">
-								{STEPS.map((step) => (
-									<div key={step.number} className="relative">
-										<div className="flex items-center gap-3">
-											<div className="h-4 w-4 rounded-full bg-white border border-accent shadow" />
-											<span className="text-5xl font-bold text-gray-200 leading-none">
-												{step.number}
-											</span>
-										</div>
-										<div className="mt-4">
-											<h4 className="text-base font-semibold text-ink">
-												{step.title}
-											</h4>
-											<p className="mt-2 text-sm text-ink/70 leading-relaxed">
-												{step.description}
-											</p>
-										</div>
-									</div>
-								))}
+					<div className="grid gap-8 justify-items-center md:grid-cols-3">
+						{STEPS.map((step) => (
+							<div key={step.number} className="relative">
+								<span className="pointer-events-none absolute -top-4 -left-8 select-none text-7xl font-black leading-none text-black/10 md:-top-10 md:text-9xl">
+									{step.number.padStart(2,)}
+								</span>
+								<div className="relative z-10 space-y-2 pt-6">
+									<h4 className="text-base font-semibold text-ink">
+										{step.title}
+									</h4>
+									<p className="text-sm max-w-[25ch] leading-relaxed text-ink/70">
+										{step.description}
+									</p>
+								</div>
 							</div>
-						</div>
+						))}
 					</div>
 				</div>
 			</div>

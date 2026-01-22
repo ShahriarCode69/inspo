@@ -41,12 +41,16 @@ export default function Testimonials() {
 	return (
 		<section
 			id="testimonials"
-			className="max-w-7xl section mx-auto px-6 pb-20 overflow-x-hidden"
+			className="max-w-[1400px] section mx-auto px-6 pb-20 overflow-x-hidden"
 		>
 			<div className="grid lg:grid-cols-[1fr_2fr] gap-8 items-center">
 				<div className="text-center lg:text-left space-y-4">
-					<p className="text-xs uppercase text-accent">Success stories</p>
-					<h2 className="text-3xl">Loved by founders worldwide.</h2>
+					<p className="text-xs font-semibold uppercase tracking-wide text-accent">
+						Success stories
+					</p>
+					<h2 className="text-4xl leading-tight">
+						Loved by founders worldwide.
+					</h2>
 				</div>
 				<div className="relative overflow-hidden testimonial-fade">
 					<div className="testimonial-track">
