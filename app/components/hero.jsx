@@ -30,7 +30,7 @@ export default function Hero() {
 					</h1>
 
 					<p className="text-lg text-ink/70 max-w-xl">
-						Inspo by Leuco is a premium course marketplace for founders and
+						Inspo is a premium course marketplace for founders and
 						creators. Learn, launch, and scale with design-forward experiences
 						and elite instructors.
 					</p>
@@ -59,7 +59,7 @@ export default function Hero() {
 								<p className="text-xs uppercase tracking-[0.3em] text-ink">
 									Featured
 								</p>
-								<h3 className="text-2xl">The Luxury Product Stack</h3>
+								<h3 className="text-2xl">Ultimate Figma Fundamentals</h3>
 							</div>
 						</div>
 

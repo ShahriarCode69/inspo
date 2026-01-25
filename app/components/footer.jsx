@@ -85,7 +85,10 @@ export default function Footer() {
 	const currentYear = new Date().getFullYear()
 
 	return (
-		<footer className="site-footer mt-4">
+		<footer
+			className="site-footer mt-4 bg-white text-[#11101b]"
+			style={{ backgroundColor: '#ffffff', color: '#11101b' }}
+		>
 			<div className="max-w-6xl mx-auto px-6 py-16 grid lg:grid-cols-[1.4fr_1fr_1fr_1.2fr] gap-10">
 				<div>
 					<div className="flex items-center gap-3">
@@ -96,18 +99,15 @@ export default function Footer() {
 							height={56}
 							className="h-12 w-auto"
 						/>
-						<p className="text-xs uppercase tracking-[0.3em] text-[#cbbdff]">
-							Inspo
-						</p>
 					</div>
-					<p className="text-sm footer-muted mt-4">
+					<p className="text-sm footer-muted mt-4 text-[#1d1a22]/70">
 						A premium learning platform for ambitious founders worldwide.
 					</p>
 					<div className="flex items-center gap-4 mt-4">
 						{SOCIAL_LINKS.map((social) => (
 							<a
 								key={social.label}
-								className="footer-link"
+								className="footer-link text-[#1d1a22]/70 hover:text-[#0f0d14] transition-colors"
 								href={social.href}
 								aria-label={social.label}
 							>
@@ -118,11 +118,16 @@ export default function Footer() {
 				</div>
 				{FOOTER_LINK_GROUPS.map((group) => (
 					<div key={group.title}>
-						<p className="text-sm font-medium mb-3">{group.title}</p>
+						<p className="text-sm font-medium mb-3 text-[#1d1a22]">
+							{group.title}
+						</p>
 						<ul className="text-sm space-y-2">
 							{group.links.map((link) => (
 								<li key={`${group.title}-${link.label}`}>
-									<a className="footer-link" href={link.href}>
+									<a
+										className="footer-link text-[#1d1a22]/70 hover:text-[#0f0d14] transition-colors"
+										href={link.href}
+									>
 										{link.label}
 									</a>
 								</li>
@@ -131,13 +136,15 @@ export default function Footer() {
 					</div>
 				))}
 				<div>
-					<p className="text-sm font-medium mb-3">Newsletter</p>
-					<p className="text-sm footer-muted mb-4">
+					<p className="text-sm font-medium mb-3 text-[#1d1a22]">
+						Newsletter
+					</p>
+					<p className="text-sm footer-muted mb-4 text-[#1d1a22]/70">
 						Weekly founder-ready insights.
 					</p>
 					<div className="flex flex-col gap-3">
 						<input
-							className="footer-input h-12 px-4 rounded-2xl text-sm outline-none"
+							className="footer-input h-12 px-4 rounded-2xl text-sm outline-none bg-white border border-[#1d1a22]/20 text-[#1d1a22] placeholder:text-[#1d1a22]/50"
 							placeholder="Email address"
 							type="email"
 						/>
@@ -146,7 +153,7 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className="max-w-6xl mx-auto px-6 pb-10">
-				<p className="text-xs footer-muted">
+				<p className="text-xs footer-muted text-[#1d1a22]/60">
 					Copyright {currentYear} Inspo. All rights reserved.
 				</p>
 			</div>

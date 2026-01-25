@@ -343,21 +343,21 @@ h4 {
 	}
 }
 .site-footer {
-	background: #11101b;
-	color: #f5f2ff;
+	background: #ffffff;
+	color: #11101b;
 }
 .site-footer .footer-muted,
 .site-footer .footer-link {
-	color: rgba(245, 242, 255, 0.68);
+	color: rgba(17, 16, 27, 0.68);
 }
 .site-footer .footer-link:hover {
-	color: #ffffff;
+	color: #0b0a12;
 }
 .site-footer .footer-input {
-	background: rgba(255, 255, 255, 0.08);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	color: #ffffff;
+	background: #ffffff;
+	border: 1px solid rgba(17, 16, 27, 0.18);
+	color: #11101b;
 }
 .site-footer .footer-input::placeholder {
-	color: rgba(245, 242, 255, 0.6);
+	color: rgba(17, 16, 27, 0.5);
 }
