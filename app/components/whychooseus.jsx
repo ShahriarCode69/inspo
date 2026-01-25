@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./button";
+import Image from "next/image";
 
 export default function WhyChooseUs() {
 	return (
@@ -24,8 +25,8 @@ export default function WhyChooseUs() {
 						</div>
 						<div className="flex items-end justify-between">
 							<Button variant="black">Explore Courses</Button>
-							<div className="hidden md:flex h-32 w-32 rounded-[18px] bg-black/5 border border-black/10 items-center justify-center text-4xl">
-								◈
+							<div className="hidden md:flex h-32 w-45 rounded-[18px] items-center justify-center text-4xl">
+								<img src="/bentoicon1.png" alt="" />
 							</div>
 						</div>
 					</div>
@@ -38,7 +39,7 @@ export default function WhyChooseUs() {
 								<h3 className="text-2xl text-white">
 									97% course satisfaction.
 								</h3>
-								<div className="h-20 w-20 rounded-[18px] bg-gradient-to-br from-[#e7ddff] via-[#f6f1ff] to-white"></div>
+								<Image src="/bentoicon2.png" alt="image" width={100} height={48}/>
 							</div>
 						</div>
 						<div className="grid grid-cols-2 gap-4">
