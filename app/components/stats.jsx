@@ -7,18 +7,18 @@ const STATS = [
 		value: 120,
 		format: "k",
 		suffix: "+",
-		label: "Global learners",
+		label: "Learners building weekly",
 	},
 	{
 		value: 320,
 		format: "number",
 		suffix: "+",
-		label: "Premium courses",
+		label: "Courses with projects",
 	},
 	{
 		value: 92,
 		format: "percent",
-		label: "Completion rate",
+		label: "Finish rate",
 	},
 ];
 

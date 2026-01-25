@@ -3,46 +3,42 @@ import Image from 'next/image'
 
 const TESTIMONIALS = [
 	{
-		text:
-			'Æ’?oTormentos feels like a private atelier. Every lesson is cinematic and actionable.Æ’??',
-		name: 'Arielle Young',
-		role: 'Founder, Lumina',
-		image: '/review1.png',
+		text: "The UI/UX course helped me build two clean case studies and finally understand grids, spacing, and design systems.",
+		name: "Arielle Young",
+		role: "Designer, Lumina",
+		image: "/review1.png",
 	},
 	{
-		text:
-			'Æ’?oThe templates alone paid for the membership. It feels premium and calm.Æ’??',
-		name: 'Jules Ortega',
-		role: 'Product Lead, Halcyon',
-		image: '/review2.png',
+		text: "I built and deployed my first full website during the course—HTML/CSS finally felt simple.",
+		name: "Jules Ortega",
+		role: "Frontend-Dev, Halcyon",
+		image: "/review2.png",
 	},
 	{
-		text: 'Æ’?oLuxury clarity in every module. The visuals are stunning.Æ’??',
-		name: 'Camille Roe',
-		role: 'Design Lead, Violette',
-		image: '/review3.png',
+		text: "I finished a playable prototype for the first time. The course made game loops and movement logic click.",
+		name: "Camille Roe",
+		role: "Game Dev, Violette",
+		image: "/review3.png",
 	},
 	{
-		text:
-			'Æ’?oI shipped a premium product in weeks. The guidance is crisp.Æ’??',
-		name: 'Noah Sato',
-		role: 'Founder, Atlas',
-		image: '/review4.png',
+		text: "My edits look cleaner now—better pacing, better cuts, and way better audio.",
+		name: "Noah Sato",
+		role: "Video Editor, Atlas",
+		image: "/review4.png",
 	},
 	{
-		text:
-			'Æ’?oThe storytelling frameworks helped us raise with confidence.Æ’??',
-		name: 'Sienna Park',
-		role: 'CEO, Northlight',
-		image: '/review5.png',
+		text: "The course made concepts like overfitting and validation actually click—my models improved immediately.",
+		name: "Sienna Park",
+		role: "ML Engineer, Northlight",
+		image: "/review5.png",
 	},
 	{
-		text: 'Æ’?oMinimal, elegant, and highly practical. A founderÆ’?Ts dream.Æ’??',
-		name: 'Leo Marin',
-		role: 'Product Strategist',
-		image: '/review1.png',
+		text: "I can now write a complete analysis report with conclusions, not just graphs.",
+		name: "Leo Marin",
+		role: "Data Analyst, Dataloo",
+		image: "/review1.png",
 	},
-]
+];
 
 export default function Testimonials() {
 	return (
@@ -52,11 +48,11 @@ export default function Testimonials() {
 		>
 			<div className="grid lg:grid-cols-[1fr_2fr] gap-8 items-center">
 				<div className="text-center lg:text-left space-y-4">
-					<p className="text-xs font-semibold uppercase tracking-wide text-accent">
+					<p className="text-sm font-semibold uppercase tracking-wide text-accent">
 						Success stories
 					</p>
-					<h2 className="text-4xl leading-tight">
-						Loved by founders worldwide.
+					<h2 className="text-4xl lg:text-6xl leading-15">
+						Loved by founders <span className='serif-text'>worldwide.</span>
 					</h2>
 				</div>
 				<div className="relative overflow-hidden testimonial-fade">
@@ -87,5 +83,5 @@ export default function Testimonials() {
 				</div>
 			</div>
 		</section>
-	)
+	);
 }

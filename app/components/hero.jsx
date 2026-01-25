@@ -19,9 +19,9 @@ export default function Hero() {
 			<div className="max-w-[1400px] mx-auto h-auto py-46 px-6 grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
 				{/* Left */}
 				<div className="space-y-8">
-					<div className="inline-flex items-center gap-3 px-4 py-2 rounded-full glass text-sm uppercase">
+					<div className="inline-flex items-center gap-3 px-4 py-2 rounded-full glass font-semibold text-sm uppercase">
 						<span className="w-2 h-2 rounded-full bg-accent" />
-						Luxury learning studio
+						PREMIUM SKILL STUDIO
 					</div>
 
 					<h1 className="text-4xl lg:text-6xl leading-tight">
@@ -30,9 +30,8 @@ export default function Hero() {
 					</h1>
 
 					<p className="text-lg text-ink/70 max-w-xl">
-						Inspo is a premium course marketplace for founders and
-						creators. Learn, launch, and scale with design-forward experiences
-						and elite instructors.
+						A curated marketplace of modern skills—taught by people who actually
+						ship. Short lessons. Real projects. Outcomes you can show.
 					</p>
 
 					<div className="flex flex-wrap items-center gap-4">
@@ -77,7 +76,7 @@ export default function Hero() {
 						</div>
 					</div>
 
-					<div className="absolute -top-6 right-6 bg-[#f3fbff]/50 border-2 border-white/40 backdrop-blur-sm rounded-xl p-4 w-44 floating-delay">
+					<div className="absolute hidden md:block -top-6 right-6 bg-[#f3fbff]/50 border-2 border-white/40 backdrop-blur-sm rounded-xl p-4 w-44 floating-delay">
 						<p className="text-xs uppercase tracking-[0.3em] text-ink">
 							Mentors
 						</p>
@@ -98,7 +97,7 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<Stats/>
+			<Stats />
 		</section>
 	);
 }

@@ -1,43 +1,45 @@
+"use client"
+
 import React from "react";
+import Anchor from "./anchor";
 
 const COURSES = [
-  {
-    title: "Game Design Fundamentals",
-    image: "/gamecourse.png",
-    description:
-      "Prototype mechanics, build levels, and ship a polished playable demo.",
-    lessons: "12 lessons",
-    href: "single-course.html",
-  },
-  {
-    title: "Graphics & Visual Systems",
-    image: "/graphicscourse.png",
-    description:
-      "Shape brand identities with typography, color systems, and layout craft.",
-    lessons: "10 lessons",
-    href: "single-course.html",
-  },
-  {
-    title: "Data Analytics Studio",
-    image: "/datacourse.png",
-    description:
-      "Clean datasets, uncover insights, and present dashboards that persuade.",
-    lessons: "9 lessons",
-    href: "single-course.html",
-  },
+	{
+		title: "Game Design: Idea to Prototype",
+		image: "/gamecourse.png",
+		description:
+			"Turn mechanics into something playable—with a clean loop and feedback.",
+		lessons: "12 lessons • Project included",
+		href: "single-course.html",
+	},
+	{
+		title: "Visual Systems for Modern Brands",
+		image: "/graphicscourse.png",
+		description:
+			"Build a brand kit you can reuse: type, color, grids, and rules.",
+		lessons: "10 lessons • 2 templates",
+		href: "single-course.html",
+	},
+	{
+		title: "Analytics for Founders",
+		image: "/datacourse.png",
+		description:
+			"Go from messy data to decisions with dashboards that make sense.",
+		lessons: "9 lessons • 1 capstone",
+		href: "single-course.html",
+	},
 ];
 
 export default function FeaturedCourses() {
   return (
 		<section id="courses" className="max-w-[1300px] mx-auto px-6 pt-24 pb-20">
 			<div className="flex items-center justify-between mb-10">
-				<h2 className="text-4xl lg:text-6xl leading-tight">Featured Courses</h2>
+				<h2 className="text-2xl lg:text-6xl leading-tight">Featured Courses</h2>
 				<a
-					className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm border border-accent/25 text-accent hover:bg-accent hover:text-white transition-colors"
+					className="px-5 py-2 rounded-full text-xs border border-accent/25 text-accent hover:bg-accent hover:text-white transition-colors"
 					href="courses.html"
 				>
-					View all
-					<span className="text-base leading-none">-&gt;</span>
+					View All
 				</a>
 			</div>
 

@@ -11,15 +11,15 @@ export default function WhyChooseUs() {
 				<div className="grid lg:grid-cols-[1.5fr_1fr] gap-4 items-stretch">
 					<div className="relative overflow-hidden border border-black/10 rounded-[18px] p-10 flex flex-col justify-between min-h-[380px]">
 						<img
-							src="/bentobg.svg"
+							src="/bentobg.png"
 							alt="Decorative background pattern"
 							className="absolute inset-0 w-full h-full object-cover -z-10 opacity-90"
 							loading="lazy"
 						/>
 						<div className="space-y-6">
 							<p className="text-xs uppercase text-black/60">Why Inspo.</p>
-							<h2 className="text-3xl lg:text-4xl leading-tight">
-								Luxury-grade learning built for founders who demand clarity.
+							<h2 className="text-3xl lg:text-5xl max-w-xl leading-tight">
+								Designed for people who hate fluff.
 							</h2>
 						</div>
 						<div className="flex items-end justify-between">
@@ -30,29 +30,31 @@ export default function WhyChooseUs() {
 						</div>
 					</div>
 					<div className="grid grid-rows-[1.1fr_0.9fr] gap-4">
-						<div className="bg-[#ffc567] rounded-[18px] p-8 flex flex-col justify-between min-h-[190px]">
+						<div className="bg-black rounded-[18px] p-8 flex flex-col justify-between min-h-[190px]">
 							<div>
-								<p className="text-xs uppercase text-NALCK">Luxury metrics</p>
+								<p className="text-xs uppercase text-white">Success metrics</p>
 							</div>
 							<div className="flex items-end justify-between">
-								<h3 className="text-2xl">97% course satisfaction.</h3>
+								<h3 className="text-2xl text-white">
+									97% course satisfaction.
+								</h3>
 								<div className="h-20 w-20 rounded-[18px] bg-gradient-to-br from-[#e7ddff] via-[#f6f1ff] to-white"></div>
 							</div>
 						</div>
 						<div className="grid grid-cols-2 gap-4">
-							<div className="bg-[#d9f8b0] rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
+							<div className="bg-black rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
 								<div className="flex items-center justify-between">
-									<p className="text-xs uppercase text-ink">About</p>
-									<span className="text-lg">↗</span>
+									<p className="text-xs text-white uppercase">Founder story</p>
+									<span className="text-lg text-white">↗</span>
 								</div>
-								<h4 className="text-xl">Founder story</h4>
+								<h4 className="text-xl text-white">Why we built Inspo</h4>
 							</div>
-							<div className="bg-[#ffae8e] rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
+							<div className="bg-gradient-to-br from-[#E3EF26] from-[0%] via-[#076653] via-[78%] to-[#0C342C] to-[100%] rounded-[18px] p-6 flex flex-col justify-between min-h-[190px]">
 								<div className="flex items-center justify-between">
-									<p className="text-xs uppercase text-[#1a1a1f]">Support</p>
+									<p className="text-xs uppercase text-black">Support</p>
 									<span className="text-lg">↗</span>
 								</div>
-								<h4 className="text-xl">Get guidance</h4>
+								<h4 className="text-xl text-white">Get guidance</h4>
 							</div>
 						</div>
 					</div>

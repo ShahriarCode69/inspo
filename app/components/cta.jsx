@@ -12,12 +12,11 @@ export default function CTA() {
 				/>
 				<div className="absolute inset-0 bg-black/30"></div>
 				<div className="relative z-10 px-6 py-16 space-y-6">
-					<h2 className="text-3xl lg:text-5xl text-white">
-						Join the luxury learning movement.
+					<h2 className="text-3xl max-w-2xl lg:text-5xl text-white">
+						Your next level is one focused{" "}
+						<span className="serif-text">week away.</span>
 					</h2>
-					<Button>
-						Become a Member
-					</Button>
+					<Button>Join Inspo</Button>
 				</div>
 			</div>
 		</section>
