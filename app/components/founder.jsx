@@ -6,15 +6,15 @@ import Image from "next/image";
 
 const Founder = () => {
 	return (
-		<section className="w-full">
-			<div className="mx-auto bg-white rounded-3xl px-6 py-10">
+		<section className="section w-full">
+			<div className="mx-auto bg-white rounded-3xl mb-26 px-6 py-10">
 				<div className="max-w-7xl mx-auto">
 					<div className="p-6 sm:p-8 lg:p-10">
 						<div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-stretch">
 							{/* LEFT (justify-between) */}
 							<div className="flex flex-col justify-end">
 								<h2 className="text-4xl font-semibold leading-14 text-gray-900 sm:text-5xl">
-									About Inspo's <br /> Founder
+									Words From <br /> <span className="serif-text"> Inspo's Founder</span>
 								</h2>
 
 								<p className="mt-3 max-w-md text-sm leading-6 text-gray-500">
