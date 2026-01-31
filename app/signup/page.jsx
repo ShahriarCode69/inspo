@@ -3,15 +3,19 @@ import Button from "../components/button";
 
 export default function SignupPage() {
 	return (
-		<main className="h-screen overflow-x-hidden grid lg:grid-cols-[1.1fr_0.9fr] bg-[#f7faf7]">
-			<section className="relative flex flex-col justify-between overflow-hidden px-8 py-10 text-white lg:py-12">
+		<main className="h-screen overflow-hidden grid lg:grid-cols-[1.1fr_0.9fr] bg-[#f7faf7]">
+			<section className="relative flex flex-col justify-between overflow-hidden px-8 pb-10 text-white lg:pb-12">
 				<div className="absolute inset-0 bg-[url('/ctabg.jpg')] bg-cover bg-center" />
 				<div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/75" />
 
 				<div className="relative z-10 flex flex-col gap-8">
 					<div className="flex items-center justify-between text-sm">
 						<Link href="/" className="flex items-center gap-3 text-white/90">
-								<img src="/logo.svg" alt="Inspo logo" className="h-24 w-24" />
+							<img
+								src="/lightlogo.svg"
+								alt="Inspo logo"
+								className="h-46 w-46"
+							/>
 						</Link>
 
 						<Link
@@ -38,7 +42,7 @@ export default function SignupPage() {
 				</div>
 			</section>
 
-			<section className="relative flex items-center justify-center bg-[#f4f6fb] px-6 py-12">
+			<section className="relative flex items-center justify-center overflow-hidden bg-[#f4f6fb] px-6 py-12">
 				<div className="pointer-events-none absolute -top-10 right-[-70px] h-52 w-52 rounded-full bg-gradient-to-br from-[#E3EF26]/40 via-[#4cffdb]/30 to-transparent blur-3xl" />
 				<div className="pointer-events-none absolute bottom-[-90px] left-[-80px] h-72 w-72 rounded-full bg-gradient-to-tr from-[#0C342C]/25 via-[#076653]/15 to-transparent blur-3xl" />
 
