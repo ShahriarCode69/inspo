@@ -35,7 +35,7 @@ export default function Hero() {
 					</p>
 
 					<div className="flex flex-wrap items-center gap-4">
-						<Button>Explore Courses</Button>
+						<Button href='/courses'>Explore Courses</Button>
 					</div>
 
 					<div className="flex items-center gap-6 text-sm text-ink/60">

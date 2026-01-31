@@ -16,7 +16,7 @@ export default function CTA() {
 						Your next level is one focused{" "}
 						<span className="serif-text">week away.</span>
 					</h2>
-					<Button>Join Inspo</Button>
+					<Button href='/signup'>Join Inspo</Button>
 				</div>
 			</div>
 		</section>

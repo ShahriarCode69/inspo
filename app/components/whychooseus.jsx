@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
 							</h2>
 						</div>
 						<div className="flex items-end justify-between">
-							<Button variant="black">Explore Courses</Button>
+							<Button variant="black" href="/courses">Explore Courses</Button>
 							<div className="hidden md:flex h-32 w-45 rounded-[18px] items-center justify-center text-4xl">
 								<img src="/bentoicon1.png" alt="" />
 							</div>

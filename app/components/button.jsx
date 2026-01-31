@@ -1,9 +1,13 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Button({
 	variant = "primary",
 	children = "Hover me",
 	className = "",
+	href,
+	type,
+	...props
 }) {
 	const variants = {
 		primary:
@@ -20,10 +24,8 @@ export default function Button({
 	const baseStyles =
 		"relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md px-6 font-medium cursor-pointer";
 
-	return (
-		<button
-			className={`${baseStyles} ${variants[resolvedVariant]} ${className}`.trim()}
-		>
+	const content = (
+		<>
 			<p>{children}</p>
 
 			{isPrimary && (
@@ -45,6 +47,28 @@ export default function Button({
 					</svg>
 				</div>
 			)}
+		</>
+	);
+
+	if (href) {
+		return (
+			<Link
+				href={href}
+				className={`${baseStyles} ${variants[resolvedVariant]} ${className}`.trim()}
+				{...props}
+			>
+				{content}
+			</Link>
+		);
+	}
+
+	return (
+		<button
+			type={type}
+			className={`${baseStyles} ${variants[resolvedVariant]} ${className}`.trim()}
+			{...props}
+		>
+			{content}
 		</button>
 	);
 }

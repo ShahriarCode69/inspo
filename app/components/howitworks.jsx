@@ -40,7 +40,7 @@ export default function HowItWorks() {
 								should learn this” to “It’s done.”
 							</p>
 						</div>
-						<Button>Get Started</Button>
+						<Button href="/signup">Get Started</Button>
 					</div>
 
 					<div className="grid gap-8 justify-items-center md:grid-cols-3">

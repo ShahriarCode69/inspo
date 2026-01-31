@@ -102,7 +102,7 @@ const PureCMSBar = () => {
 						</span>
 					</div>
 
-					<Button className="bg-white text-black hover:opacity-95">
+					<Button href='/signup' className="bg-white text-black hover:opacity-95">
 						Get Started
 					</Button>
 				</div>

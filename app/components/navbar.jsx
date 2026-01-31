@@ -38,7 +38,9 @@ export default function Navbar() {
 
 						{/* Desktop Actions */}
 						<div className="hidden lg:flex items-center gap-3">
-							<Button variant="secondary">Login</Button>
+							<Button variant="secondary" href="/login">
+								Login
+							</Button>
 							<Button href="/signup">Sign Up</Button>
 						</div>
 
@@ -77,8 +79,10 @@ export default function Navbar() {
 							</div>
 
 							<div className="flex flex-col gap-3">
-								<Button variant="secondary">Log in</Button>
-								<Button>Start free</Button>
+								<Button variant="secondary" href="/login">
+									Log in
+								</Button>
+								<Button href="/signup">Start free</Button>
 							</div>
 						</div>
 					)}

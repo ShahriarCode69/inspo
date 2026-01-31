@@ -5,7 +5,7 @@ export default function LoginPage() {
 	return (
 		<main className="relative flex h-[100dvh] overflow-hidden bg-[#f7faf7] lg:grid lg:h-screen lg:grid-cols-[1.1fr_0.9fr]">
 			<div className="absolute inset-0 lg:hidden">
-				<div className="absolute inset-0 bg-[url('/ctabg.jpg')] bg-cover bg-center" />
+				<div className="absolute inset-0 bg-[url('/cta2.jpg')] bg-cover bg-center" />
 				<div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/55 to-black/85" />
 			</div>
 
@@ -142,7 +142,7 @@ export default function LoginPage() {
 								</Link>
 							</div>
 
-							<Button variant="black" className="w-full rounded-full">
+							<Button variant="black" className="w-full rounded-full" href="/login">
 								Log in
 							</Button>
 						</form>
