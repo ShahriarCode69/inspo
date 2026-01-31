@@ -39,7 +39,7 @@ export default function Navbar() {
 						{/* Desktop Actions */}
 						<div className="hidden lg:flex items-center gap-3">
 							<Button variant="secondary">Login</Button>
-							<Button>Sign Up</Button>
+							<Button href="/signup">Sign Up</Button>
 						</div>
 
 						{/* Mobile Toggle */}
