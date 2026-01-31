@@ -860,7 +860,7 @@ export const courses = [
 			"Learn core security concepts: threats, passwords, phishing, safe browsing, and security habits.",
 
 		media: {
-			coverImage: "/images/courses/cybersecurity-fundamentals/cover.jpg",
+			coverImage: "/courses/cybersecurity.png",
 			coverAlt: "Cybersecurity lock and network",
 			previewCtaLabel: "Watch preview",
 		},
