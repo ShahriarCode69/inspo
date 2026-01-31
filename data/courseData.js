@@ -108,27 +108,205 @@ export const courses = [
 	},
 
 	{
-		id: "react-from-zero-to-production",
-		slug: "react-from-zero-to-production",
+		id: "cybersecurity-fundamentals",
+		slug: "cybersecurity-fundamentals",
 
-		category: "Frontend Development",
-		badge: "Career track",
+		category: "IT & Security",
+		badge: "Essential",
 
-		title: "React: From Zero to Production",
+		title: "Cybersecurity Fundamentals",
 		subtitle:
-			"Build real React apps with modern patterns: hooks, routing, forms, state, and performance.",
+			"Learn core security concepts: threats, passwords, phishing, safe browsing, and security habits.",
 
 		media: {
-			coverImage: "/courses/reactcourse.png",
-			coverAlt: "Code editor with React components",
+			coverImage: "/courses/cybersecurity.png",
+			coverAlt: "Cybersecurity lock and network",
 			previewCtaLabel: "Watch preview",
 		},
 
 		stats: {
-			rating: 4.7,
-			reviewCount: 5380,
-			lessonsCount: 32,
-			durationHours: 14,
+			rating: 4.5,
+			reviewCount: 1980,
+			lessonsCount: 18,
+			durationHours: 8,
+			priceUSD: 59,
+		},
+
+		purchase: {
+			primaryCtaLabel: "Enroll for $59",
+			secondaryCtaLabel: "Watch preview",
+			stickyCtaLabel: "Enroll now",
+			shareLabel: "Share syllabus",
+		},
+
+		meta: { access: "Lifetime", format: "Video + Quizzes" },
+
+		instructor: {
+			name: "Nadia Karim",
+			role: "Security Analyst",
+			company: "SecureWave",
+			bio: "Nadia trains teams on security hygiene and practical defense against common attacks.",
+		},
+
+		outcomes: {
+			whatYouWillLearn: [
+				"Recognize phishing and social engineering attempts.",
+				"Set up strong passwords and MFA correctly.",
+				"Secure devices, Wi-Fi, and browsers.",
+				"Understand basic security terminology and threats.",
+			],
+			whoThisCourseIsFor: ["Anyone online", "Teams", "Beginners to security"],
+			requirements: ["None"],
+			certificatesAndOutcomes: [
+				"Completion certificate",
+				"Security checklist",
+				"Phishing practice guide",
+			],
+		},
+
+		curriculum: [
+			{
+				moduleNumber: 1,
+				title: "Threats",
+				description: "Common attacks and how they work.",
+			},
+			{
+				moduleNumber: 2,
+				title: "Accounts",
+				description: "Passwords, MFA, safe identity habits.",
+			},
+			{
+				moduleNumber: 3,
+				title: "Devices",
+				description: "Updates, backups, safe Wi-Fi.",
+			},
+			{
+				moduleNumber: 4,
+				title: "Work safety",
+				description: "Policies, tools, incident basics.",
+			},
+		],
+
+		reviews: [
+			{ name: "Asha P.", quote: "Simple and super useful for daily life." },
+			{ name: "Rayan H.", quote: "Phishing examples were very realistic." },
+			{ name: "Mina S.", quote: "Great security habits course." },
+		],
+	},
+
+	{
+		id: "python-for-data-analysis",
+		slug: "python-for-data-analysis",
+
+		category: "Data",
+		badge: "Popular",
+
+		title: "Python for Data Analysis",
+		subtitle:
+			"Learn Python with real datasets: cleaning, analysis, visualization, and automation basics.",
+
+		media: {
+			coverImage: "/courses/pythoncourse.png",
+			coverAlt: "Data charts and Python notebook",
+			previewCtaLabel: "Watch preview",
+		},
+
+		stats: {
+			rating: 4.8,
+			reviewCount: 6230,
+			lessonsCount: 30,
+			durationHours: 13,
+			priceUSD: 89,
+		},
+
+		purchase: {
+			primaryCtaLabel: "Enroll for $89",
+			secondaryCtaLabel: "Watch preview",
+			stickyCtaLabel: "Enroll now",
+			shareLabel: "Share syllabus",
+		},
+
+		meta: { access: "Lifetime", format: "Video + Notebooks" },
+
+		instructor: {
+			name: "Ayesha Rahman",
+			role: "Data Analyst",
+			company: "InsightLab",
+			bio: "Ayesha teaches analysis workflows using pandas with practical, business-style datasets.",
+		},
+
+		outcomes: {
+			whatYouWillLearn: [
+				"Clean and transform data with pandas.",
+				"Analyze trends and build summary reports.",
+				"Create charts and dashboards (basic).",
+				"Automate repetitive data tasks.",
+			],
+			whoThisCourseIsFor: [
+				"Beginners to data",
+				"Business analysts",
+				"Developers adding data skills",
+			],
+			requirements: ["Basic computer skills", "Install Python"],
+			certificatesAndOutcomes: [
+				"Completion certificate",
+				"Notebook templates",
+				"Mini portfolio project",
+			],
+		},
+
+		curriculum: [
+			{
+				moduleNumber: 1,
+				title: "Python essentials",
+				description: "Types, functions, files.",
+			},
+			{
+				moduleNumber: 2,
+				title: "pandas basics",
+				description: "DataFrames, filtering, joins.",
+			},
+			{
+				moduleNumber: 3,
+				title: "Analysis",
+				description: "Aggregations, pivots, time series basics.",
+			},
+			{
+				moduleNumber: 4,
+				title: "Visualization",
+				description: "Charts, storytelling with data.",
+			},
+		],
+
+		reviews: [
+			{ name: "Mahir T.", quote: "Practical datasets made it easy to learn." },
+			{ name: "Lena H.", quote: "The pandas section is gold." },
+			{ name: "Arif J.", quote: "Good pace and clear examples." },
+		],
+	},
+
+	{
+		id: "digital-marketing-meta-google-ads",
+		slug: "digital-marketing-meta-google-ads",
+
+		category: "Marketing",
+		badge: "In-demand",
+
+		title: "Digital Marketing: Meta & Google Ads",
+		subtitle:
+			"Run profitable campaigns with targeting, creatives, tracking, and optimization frameworks.",
+
+		media: {
+			coverImage: "/courses/digitalmarket.png",
+			coverAlt: "Ad dashboard analytics",
+			previewCtaLabel: "Watch preview",
+		},
+
+		stats: {
+			rating: 4.6,
+			reviewCount: 3410,
+			lessonsCount: 26,
+			durationHours: 12,
 			priceUSD: 99,
 		},
 
@@ -139,68 +317,241 @@ export const courses = [
 			shareLabel: "Share syllabus",
 		},
 
-		meta: { access: "Lifetime", format: "Video + Projects" },
+		meta: { access: "Lifetime", format: "Video + Worksheets" },
 
 		instructor: {
-			name: "Arman Lee",
-			role: "Senior Frontend Engineer",
-			company: "NovaStack",
-			bio: "Arman builds high-scale web apps and teaches clean component architecture and debugging.",
+			name: "Tariq Anwar",
+			role: "Performance Marketer",
+			company: "GrowthPilot",
+			bio: "Tariq manages paid media budgets and teaches testing systems that reduce wasted spend.",
 		},
 
 		outcomes: {
 			whatYouWillLearn: [
-				"Build reusable components with hooks.",
-				"Handle forms, validation, and async requests.",
-				"Structure apps with routing and layouts.",
-				"Optimize performance and avoid common re-render issues.",
+				"Campaign structure and targeting basics.",
+				"Creative testing frameworks (hooks, angles).",
+				"Tracking fundamentals (pixels, events, UTMs).",
+				"Optimization: bids, budgets, and reporting.",
 			],
-			whoThisCourseIsFor: [
-				"Beginners in React",
-				"Developers switching to frontend",
-				"Anyone building SaaS UIs",
+			whoThisCourseIsFor: ["Marketers", "Founders", "Freelancers"],
+			requirements: [
+				"Basic understanding of marketing",
+				"A product/service to practice with (optional)",
 			],
-			requirements: ["Basic JavaScript knowledge", "Node.js installed"],
 			certificatesAndOutcomes: [
 				"Completion certificate",
-				"2 production-style projects",
-				"Reusable starter repo",
+				"Ad testing sheets",
+				"Reporting template",
 			],
 		},
 
 		curriculum: [
 			{
 				moduleNumber: 1,
-				title: "React basics",
-				description: "JSX, props, state, events.",
+				title: "Foundations",
+				description: "Goals, funnels, offer clarity.",
 			},
 			{
 				moduleNumber: 2,
-				title: "Hooks & patterns",
-				description: "useEffect, custom hooks, composition.",
+				title: "Meta Ads",
+				description: "Structure, creatives, optimization.",
 			},
 			{
 				moduleNumber: 3,
-				title: "App architecture",
-				description: "Routing, layouts, state strategy.",
+				title: "Google Ads",
+				description: "Search intent, keywords, quality score.",
 			},
 			{
 				moduleNumber: 4,
-				title: "Production skills",
-				description: "Perf, testing basics, deployment.",
+				title: "Tracking & reporting",
+				description: "Pixels, UTMs, dashboards.",
+			},
+		],
+
+		reviews: [
+			{ name: "Amin S.", quote: "The testing framework is super clear." },
+			{
+				name: "Elina K.",
+				quote: "Helped me stop guessing and start measuring.",
+			},
+			{ name: "Faisal R.", quote: "Very practical and actionable." },
+		],
+	},
+
+	{
+		id: "git-and-github-for-teams",
+		slug: "git-and-github-for-teams",
+
+		category: "Developer Tools",
+		badge: "Team-ready",
+
+		title: "Git & GitHub for Teams",
+		subtitle:
+			"Work confidently with branches, pull requests, code review, and clean Git workflows.",
+
+		media: {
+			coverImage: "/courses/gitcourse.png",
+			coverAlt: "Git branching workflow diagram",
+			previewCtaLabel: "Watch preview",
+		},
+
+		stats: {
+			rating: 4.8,
+			reviewCount: 4520,
+			lessonsCount: 16,
+			durationHours: 6,
+			priceUSD: 49,
+		},
+
+		purchase: {
+			primaryCtaLabel: "Enroll for $49",
+			secondaryCtaLabel: "Watch preview",
+			stickyCtaLabel: "Enroll now",
+			shareLabel: "Share syllabus",
+		},
+
+		meta: { access: "Lifetime", format: "Video + Exercises" },
+
+		instructor: {
+			name: "Owen Clarke",
+			role: "Engineering Manager",
+			company: "ShipRight",
+			bio: "Owen leads dev teams and teaches Git workflows that reduce conflicts and speed up shipping.",
+		},
+
+		outcomes: {
+			whatYouWillLearn: [
+				"Branching strategies that scale.",
+				"Pull requests and code review habits.",
+				"Resolve merge conflicts confidently.",
+				"Clean history with rebase/squash (safely).",
+			],
+			whoThisCourseIsFor: ["New developers", "Teams", "Students"],
+			requirements: ["Install Git", "GitHub account"],
+			certificatesAndOutcomes: [
+				"Completion certificate",
+				"Git workflow guide",
+				"Cheat sheet",
+			],
+		},
+
+		curriculum: [
+			{
+				moduleNumber: 1,
+				title: "Git basics",
+				description: "Commits, branches, remotes.",
+			},
+			{
+				moduleNumber: 2,
+				title: "Collaboration",
+				description: "PRs, reviews, conventions.",
+			},
+			{
+				moduleNumber: 3,
+				title: "Conflicts",
+				description: "Merge conflicts and recovery.",
+			},
+			{
+				moduleNumber: 4,
+				title: "Team workflows",
+				description: "Trunk vs GitFlow, best practices.",
+			},
+		],
+
+		reviews: [
+			{ name: "Saimon R.", quote: "Now I’m not scared of conflicts anymore." },
+			{ name: "Hira K.", quote: "PR workflow explained perfectly." },
+			{ name: "Leo M.", quote: "Simple, modern, and team-focused." },
+		],
+	},
+
+	{
+		id: "excel-to-power-bi-dashboarding",
+		slug: "excel-to-power-bi-dashboarding",
+
+		category: "Analytics",
+		badge: "Skill boost",
+
+		title: "Excel to Power BI Dashboarding",
+		subtitle:
+			"Move from spreadsheets to interactive dashboards with Power BI: modeling, DAX basics, and visuals.",
+
+		media: {
+			coverImage: "/courses/excelcourse.png",
+			coverAlt: "Business dashboard charts",
+			previewCtaLabel: "Watch preview",
+		},
+
+		stats: {
+			rating: 4.6,
+			reviewCount: 2980,
+			lessonsCount: 18,
+			durationHours: 7,
+			priceUSD: 59,
+		},
+
+		purchase: {
+			primaryCtaLabel: "Enroll for $59",
+			secondaryCtaLabel: "Watch preview",
+			stickyCtaLabel: "Enroll now",
+			shareLabel: "Share syllabus",
+		},
+
+		meta: { access: "Lifetime", format: "Video + Files" },
+
+		instructor: {
+			name: "Nabil Hasan",
+			role: "BI Developer",
+			company: "DataForge",
+			bio: "Nabil builds dashboards for business teams and teaches clean modeling and reporting habits.",
+		},
+
+		outcomes: {
+			whatYouWillLearn: [
+				"Import and clean data with Power Query.",
+				"Build a simple data model with relationships.",
+				"Write DAX basics for measures.",
+				"Create interactive dashboards and publish them.",
+			],
+			whoThisCourseIsFor: ["Excel users", "Analysts", "Business teams"],
+			requirements: ["Basic Excel knowledge"],
+			certificatesAndOutcomes: [
+				"Completion certificate",
+				"Dashboard project",
+				"Reusable Power BI template",
+			],
+		},
+
+		curriculum: [
+			{
+				moduleNumber: 1,
+				title: "Power Query",
+				description: "Cleaning and shaping data.",
+			},
+			{
+				moduleNumber: 2,
+				title: "Modeling",
+				description: "Relationships and star schema basics.",
+			},
+			{
+				moduleNumber: 3,
+				title: "DAX essentials",
+				description: "Measures, KPIs, time intelligence basics.",
+			},
+			{
+				moduleNumber: 4,
+				title: "Dashboarding",
+				description: "Visuals, interactivity, publishing.",
 			},
 		],
 
 		reviews: [
 			{
-				name: "Riya K.",
-				quote: "Loved the architecture section—super practical.",
+				name: "Fahim R.",
+				quote: "Exactly what I needed to move beyond Excel charts.",
 			},
-			{
-				name: "Sam P.",
-				quote: "Explained hooks in a way that finally clicked.",
-			},
-			{ name: "Diego M.", quote: "Great projects and best practices." },
+			{ name: "Sara M.", quote: "Clear DAX intro and great dashboard tips." },
+			{ name: "Jamil A.", quote: "Very job-focused and practical." },
 		],
 	},
 
@@ -302,6 +653,93 @@ export const courses = [
 	},
 
 	{
+		id: "photoshop-for-content-creators",
+		slug: "photoshop-for-content-creators",
+
+		category: "Creative Tools",
+		badge: "Hands-on",
+
+		title: "Photoshop for Content Creators",
+		subtitle:
+			"Edit photos, create thumbnails, and design social graphics using smart, repeatable workflows.",
+
+		media: {
+			coverImage: "/courses/photoshopcourse.png",
+			coverAlt: "Photo editing workspace",
+			previewCtaLabel: "Watch preview",
+		},
+
+		stats: {
+			rating: 4.6,
+			reviewCount: 1870,
+			lessonsCount: 16,
+			durationHours: 6,
+			priceUSD: 49,
+		},
+
+		purchase: {
+			primaryCtaLabel: "Enroll for $49",
+			secondaryCtaLabel: "Watch preview",
+			stickyCtaLabel: "Enroll now",
+			shareLabel: "Share syllabus",
+		},
+
+		meta: { access: "Lifetime", format: "Video + Assets" },
+
+		instructor: {
+			name: "Zara Ahmed",
+			role: "Creative Director",
+			company: "Studio Nine",
+			bio: "Zara designs high-performing social visuals and teaches fast workflows for creators.",
+		},
+
+		outcomes: {
+			whatYouWillLearn: [
+				"Cutouts, masking, and background removal.",
+				"Color correction and retouching basics.",
+				"Thumbnail design with text and effects.",
+				"Exporting for web and social platforms.",
+			],
+			whoThisCourseIsFor: ["Creators", "Marketers", "Design beginners"],
+			requirements: ["Photoshop installed (trial is okay)"],
+			certificatesAndOutcomes: [
+				"Completion certificate",
+				"Thumbnail pack templates",
+				"Asset export checklist",
+			],
+		},
+
+		curriculum: [
+			{
+				moduleNumber: 1,
+				title: "Essentials",
+				description: "Layers, selections, masks.",
+			},
+			{
+				moduleNumber: 2,
+				title: "Retouching",
+				description: "Light, color, cleanup workflows.",
+			},
+			{
+				moduleNumber: 3,
+				title: "Design for social",
+				description: "Thumbnails and templates.",
+			},
+			{
+				moduleNumber: 4,
+				title: "Exporting",
+				description: "Formats, compression, quality.",
+			},
+		],
+
+		reviews: [
+			{ name: "Nina R.", quote: "Thumbnails improved instantly." },
+			{ name: "Omar K.", quote: "Great workflow tips, not just tools." },
+			{ name: "Priya S.", quote: "Easy to follow and very practical." },
+		],
+	},
+
+	{
 		id: "javascript-modern-fundamentals",
 		slug: "javascript-modern-fundamentals",
 
@@ -393,274 +831,6 @@ export const courses = [
 	},
 
 	{
-		id: "python-for-data-analysis",
-		slug: "python-for-data-analysis",
-
-		category: "Data",
-		badge: "Popular",
-
-		title: "Python for Data Analysis",
-		subtitle:
-			"Learn Python with real datasets: cleaning, analysis, visualization, and automation basics.",
-
-		media: {
-			coverImage: "/courses/pythoncourse.png",
-			coverAlt: "Data charts and Python notebook",
-			previewCtaLabel: "Watch preview",
-		},
-
-		stats: {
-			rating: 4.8,
-			reviewCount: 6230,
-			lessonsCount: 30,
-			durationHours: 13,
-			priceUSD: 89,
-		},
-
-		purchase: {
-			primaryCtaLabel: "Enroll for $89",
-			secondaryCtaLabel: "Watch preview",
-			stickyCtaLabel: "Enroll now",
-			shareLabel: "Share syllabus",
-		},
-
-		meta: { access: "Lifetime", format: "Video + Notebooks" },
-
-		instructor: {
-			name: "Ayesha Rahman",
-			role: "Data Analyst",
-			company: "InsightLab",
-			bio: "Ayesha teaches analysis workflows using pandas with practical, business-style datasets.",
-		},
-
-		outcomes: {
-			whatYouWillLearn: [
-				"Clean and transform data with pandas.",
-				"Analyze trends and build summary reports.",
-				"Create charts and dashboards (basic).",
-				"Automate repetitive data tasks.",
-			],
-			whoThisCourseIsFor: [
-				"Beginners to data",
-				"Business analysts",
-				"Developers adding data skills",
-			],
-			requirements: ["Basic computer skills", "Install Python"],
-			certificatesAndOutcomes: [
-				"Completion certificate",
-				"Notebook templates",
-				"Mini portfolio project",
-			],
-		},
-
-		curriculum: [
-			{
-				moduleNumber: 1,
-				title: "Python essentials",
-				description: "Types, functions, files.",
-			},
-			{
-				moduleNumber: 2,
-				title: "pandas basics",
-				description: "DataFrames, filtering, joins.",
-			},
-			{
-				moduleNumber: 3,
-				title: "Analysis",
-				description: "Aggregations, pivots, time series basics.",
-			},
-			{
-				moduleNumber: 4,
-				title: "Visualization",
-				description: "Charts, storytelling with data.",
-			},
-		],
-
-		reviews: [
-			{ name: "Mahir T.", quote: "Practical datasets made it easy to learn." },
-			{ name: "Lena H.", quote: "The pandas section is gold." },
-			{ name: "Arif J.", quote: "Good pace and clear examples." },
-		],
-	},
-
-	{
-		id: "excel-to-power-bi-dashboarding",
-		slug: "excel-to-power-bi-dashboarding",
-
-		category: "Analytics",
-		badge: "Skill boost",
-
-		title: "Excel to Power BI Dashboarding",
-		subtitle:
-			"Move from spreadsheets to interactive dashboards with Power BI: modeling, DAX basics, and visuals.",
-
-		media: {
-			coverImage: "/courses/excelcourse.png",
-			coverAlt: "Business dashboard charts",
-			previewCtaLabel: "Watch preview",
-		},
-
-		stats: {
-			rating: 4.6,
-			reviewCount: 2980,
-			lessonsCount: 18,
-			durationHours: 7,
-			priceUSD: 59,
-		},
-
-		purchase: {
-			primaryCtaLabel: "Enroll for $59",
-			secondaryCtaLabel: "Watch preview",
-			stickyCtaLabel: "Enroll now",
-			shareLabel: "Share syllabus",
-		},
-
-		meta: { access: "Lifetime", format: "Video + Files" },
-
-		instructor: {
-			name: "Nabil Hasan",
-			role: "BI Developer",
-			company: "DataForge",
-			bio: "Nabil builds dashboards for business teams and teaches clean modeling and reporting habits.",
-		},
-
-		outcomes: {
-			whatYouWillLearn: [
-				"Import and clean data with Power Query.",
-				"Build a simple data model with relationships.",
-				"Write DAX basics for measures.",
-				"Create interactive dashboards and publish them.",
-			],
-			whoThisCourseIsFor: ["Excel users", "Analysts", "Business teams"],
-			requirements: ["Basic Excel knowledge"],
-			certificatesAndOutcomes: [
-				"Completion certificate",
-				"Dashboard project",
-				"Reusable Power BI template",
-			],
-		},
-
-		curriculum: [
-			{
-				moduleNumber: 1,
-				title: "Power Query",
-				description: "Cleaning and shaping data.",
-			},
-			{
-				moduleNumber: 2,
-				title: "Modeling",
-				description: "Relationships and star schema basics.",
-			},
-			{
-				moduleNumber: 3,
-				title: "DAX essentials",
-				description: "Measures, KPIs, time intelligence basics.",
-			},
-			{
-				moduleNumber: 4,
-				title: "Dashboarding",
-				description: "Visuals, interactivity, publishing.",
-			},
-		],
-
-		reviews: [
-			{
-				name: "Fahim R.",
-				quote: "Exactly what I needed to move beyond Excel charts.",
-			},
-			{ name: "Sara M.", quote: "Clear DAX intro and great dashboard tips." },
-			{ name: "Jamil A.", quote: "Very job-focused and practical." },
-		],
-	},
-
-	{
-		id: "photoshop-for-content-creators",
-		slug: "photoshop-for-content-creators",
-
-		category: "Creative Tools",
-		badge: "Hands-on",
-
-		title: "Photoshop for Content Creators",
-		subtitle:
-			"Edit photos, create thumbnails, and design social graphics using smart, repeatable workflows.",
-
-		media: {
-			coverImage: "/courses/photoshopcourse.png",
-			coverAlt: "Photo editing workspace",
-			previewCtaLabel: "Watch preview",
-		},
-
-		stats: {
-			rating: 4.6,
-			reviewCount: 1870,
-			lessonsCount: 16,
-			durationHours: 6,
-			priceUSD: 49,
-		},
-
-		purchase: {
-			primaryCtaLabel: "Enroll for $49",
-			secondaryCtaLabel: "Watch preview",
-			stickyCtaLabel: "Enroll now",
-			shareLabel: "Share syllabus",
-		},
-
-		meta: { access: "Lifetime", format: "Video + Assets" },
-
-		instructor: {
-			name: "Zara Ahmed",
-			role: "Creative Director",
-			company: "Studio Nine",
-			bio: "Zara designs high-performing social visuals and teaches fast workflows for creators.",
-		},
-
-		outcomes: {
-			whatYouWillLearn: [
-				"Cutouts, masking, and background removal.",
-				"Color correction and retouching basics.",
-				"Thumbnail design with text and effects.",
-				"Exporting for web and social platforms.",
-			],
-			whoThisCourseIsFor: ["Creators", "Marketers", "Design beginners"],
-			requirements: ["Photoshop installed (trial is okay)"],
-			certificatesAndOutcomes: [
-				"Completion certificate",
-				"Thumbnail pack templates",
-				"Asset export checklist",
-			],
-		},
-
-		curriculum: [
-			{
-				moduleNumber: 1,
-				title: "Essentials",
-				description: "Layers, selections, masks.",
-			},
-			{
-				moduleNumber: 2,
-				title: "Retouching",
-				description: "Light, color, cleanup workflows.",
-			},
-			{
-				moduleNumber: 3,
-				title: "Design for social",
-				description: "Thumbnails and templates.",
-			},
-			{
-				moduleNumber: 4,
-				title: "Exporting",
-				description: "Formats, compression, quality.",
-			},
-		],
-
-		reviews: [
-			{ name: "Nina R.", quote: "Thumbnails improved instantly." },
-			{ name: "Omar K.", quote: "Great workflow tips, not just tools." },
-			{ name: "Priya S.", quote: "Easy to follow and very practical." },
-		],
-	},
-
-	{
 		id: "premiere-pro-video-editing-bootcamp",
 		slug: "premiere-pro-video-editing-bootcamp",
 
@@ -672,8 +842,7 @@ export const courses = [
 			"Edit fast, tell better stories, and deliver clean exports for YouTube, reels, and ads.",
 
 		media: {
-			coverImage:
-				"/courses/videoediting.png",
+			coverImage: "/courses/videoediting.png",
 			coverAlt: "Video timeline editing interface",
 			previewCtaLabel: "Watch preview",
 		},
@@ -756,27 +925,27 @@ export const courses = [
 	},
 
 	{
-		id: "digital-marketing-meta-google-ads",
-		slug: "digital-marketing-meta-google-ads",
+		id: "react-from-zero-to-production",
+		slug: "react-from-zero-to-production",
 
-		category: "Marketing",
-		badge: "In-demand",
+		category: "Frontend Development",
+		badge: "Career track",
 
-		title: "Digital Marketing: Meta & Google Ads",
+		title: "React: From Zero to Production",
 		subtitle:
-			"Run profitable campaigns with targeting, creatives, tracking, and optimization frameworks.",
+			"Build real React apps with modern patterns: hooks, routing, forms, state, and performance.",
 
 		media: {
-			coverImage: "/courses/digitalmarket.png",
-			coverAlt: "Ad dashboard analytics",
+			coverImage: "/courses/reactcourse.png",
+			coverAlt: "Code editor with React components",
 			previewCtaLabel: "Watch preview",
 		},
 
 		stats: {
-			rating: 4.6,
-			reviewCount: 3410,
-			lessonsCount: 26,
-			durationHours: 12,
+			rating: 4.7,
+			reviewCount: 5380,
+			lessonsCount: 32,
+			durationHours: 14,
 			priceUSD: 99,
 		},
 
@@ -787,238 +956,68 @@ export const courses = [
 			shareLabel: "Share syllabus",
 		},
 
-		meta: { access: "Lifetime", format: "Video + Worksheets" },
+		meta: { access: "Lifetime", format: "Video + Projects" },
 
 		instructor: {
-			name: "Tariq Anwar",
-			role: "Performance Marketer",
-			company: "GrowthPilot",
-			bio: "Tariq manages paid media budgets and teaches testing systems that reduce wasted spend.",
+			name: "Arman Lee",
+			role: "Senior Frontend Engineer",
+			company: "NovaStack",
+			bio: "Arman builds high-scale web apps and teaches clean component architecture and debugging.",
 		},
 
 		outcomes: {
 			whatYouWillLearn: [
-				"Campaign structure and targeting basics.",
-				"Creative testing frameworks (hooks, angles).",
-				"Tracking fundamentals (pixels, events, UTMs).",
-				"Optimization: bids, budgets, and reporting.",
+				"Build reusable components with hooks.",
+				"Handle forms, validation, and async requests.",
+				"Structure apps with routing and layouts.",
+				"Optimize performance and avoid common re-render issues.",
 			],
-			whoThisCourseIsFor: ["Marketers", "Founders", "Freelancers"],
-			requirements: [
-				"Basic understanding of marketing",
-				"A product/service to practice with (optional)",
+			whoThisCourseIsFor: [
+				"Beginners in React",
+				"Developers switching to frontend",
+				"Anyone building SaaS UIs",
 			],
+			requirements: ["Basic JavaScript knowledge", "Node.js installed"],
 			certificatesAndOutcomes: [
 				"Completion certificate",
-				"Ad testing sheets",
-				"Reporting template",
+				"2 production-style projects",
+				"Reusable starter repo",
 			],
 		},
 
 		curriculum: [
 			{
 				moduleNumber: 1,
-				title: "Foundations",
-				description: "Goals, funnels, offer clarity.",
+				title: "React basics",
+				description: "JSX, props, state, events.",
 			},
 			{
 				moduleNumber: 2,
-				title: "Meta Ads",
-				description: "Structure, creatives, optimization.",
+				title: "Hooks & patterns",
+				description: "useEffect, custom hooks, composition.",
 			},
 			{
 				moduleNumber: 3,
-				title: "Google Ads",
-				description: "Search intent, keywords, quality score.",
+				title: "App architecture",
+				description: "Routing, layouts, state strategy.",
 			},
 			{
 				moduleNumber: 4,
-				title: "Tracking & reporting",
-				description: "Pixels, UTMs, dashboards.",
+				title: "Production skills",
+				description: "Perf, testing basics, deployment.",
 			},
 		],
 
 		reviews: [
-			{ name: "Amin S.", quote: "The testing framework is super clear." },
 			{
-				name: "Elina K.",
-				quote: "Helped me stop guessing and start measuring.",
-			},
-			{ name: "Faisal R.", quote: "Very practical and actionable." },
-		],
-	},
-
-	{
-		id: "cybersecurity-fundamentals",
-		slug: "cybersecurity-fundamentals",
-
-		category: "IT & Security",
-		badge: "Essential",
-
-		title: "Cybersecurity Fundamentals",
-		subtitle:
-			"Learn core security concepts: threats, passwords, phishing, safe browsing, and security habits.",
-
-		media: {
-			coverImage: "/courses/cybersecurity.png",
-			coverAlt: "Cybersecurity lock and network",
-			previewCtaLabel: "Watch preview",
-		},
-
-		stats: {
-			rating: 4.5,
-			reviewCount: 1980,
-			lessonsCount: 18,
-			durationHours: 8,
-			priceUSD: 59,
-		},
-
-		purchase: {
-			primaryCtaLabel: "Enroll for $59",
-			secondaryCtaLabel: "Watch preview",
-			stickyCtaLabel: "Enroll now",
-			shareLabel: "Share syllabus",
-		},
-
-		meta: { access: "Lifetime", format: "Video + Quizzes" },
-
-		instructor: {
-			name: "Nadia Karim",
-			role: "Security Analyst",
-			company: "SecureWave",
-			bio: "Nadia trains teams on security hygiene and practical defense against common attacks.",
-		},
-
-		outcomes: {
-			whatYouWillLearn: [
-				"Recognize phishing and social engineering attempts.",
-				"Set up strong passwords and MFA correctly.",
-				"Secure devices, Wi-Fi, and browsers.",
-				"Understand basic security terminology and threats.",
-			],
-			whoThisCourseIsFor: ["Anyone online", "Teams", "Beginners to security"],
-			requirements: ["None"],
-			certificatesAndOutcomes: [
-				"Completion certificate",
-				"Security checklist",
-				"Phishing practice guide",
-			],
-		},
-
-		curriculum: [
-			{
-				moduleNumber: 1,
-				title: "Threats",
-				description: "Common attacks and how they work.",
+				name: "Riya K.",
+				quote: "Loved the architecture section—super practical.",
 			},
 			{
-				moduleNumber: 2,
-				title: "Accounts",
-				description: "Passwords, MFA, safe identity habits.",
+				name: "Sam P.",
+				quote: "Explained hooks in a way that finally clicked.",
 			},
-			{
-				moduleNumber: 3,
-				title: "Devices",
-				description: "Updates, backups, safe Wi-Fi.",
-			},
-			{
-				moduleNumber: 4,
-				title: "Work safety",
-				description: "Policies, tools, incident basics.",
-			},
-		],
-
-		reviews: [
-			{ name: "Asha P.", quote: "Simple and super useful for daily life." },
-			{ name: "Rayan H.", quote: "Phishing examples were very realistic." },
-			{ name: "Mina S.", quote: "Great security habits course." },
-		],
-	},
-
-	{
-		id: "git-and-github-for-teams",
-		slug: "git-and-github-for-teams",
-
-		category: "Developer Tools",
-		badge: "Team-ready",
-
-		title: "Git & GitHub for Teams",
-		subtitle:
-			"Work confidently with branches, pull requests, code review, and clean Git workflows.",
-
-		media: {
-			coverImage: "/courses/gitcourse.png",
-			coverAlt: "Git branching workflow diagram",
-			previewCtaLabel: "Watch preview",
-		},
-
-		stats: {
-			rating: 4.8,
-			reviewCount: 4520,
-			lessonsCount: 16,
-			durationHours: 6,
-			priceUSD: 49,
-		},
-
-		purchase: {
-			primaryCtaLabel: "Enroll for $49",
-			secondaryCtaLabel: "Watch preview",
-			stickyCtaLabel: "Enroll now",
-			shareLabel: "Share syllabus",
-		},
-
-		meta: { access: "Lifetime", format: "Video + Exercises" },
-
-		instructor: {
-			name: "Owen Clarke",
-			role: "Engineering Manager",
-			company: "ShipRight",
-			bio: "Owen leads dev teams and teaches Git workflows that reduce conflicts and speed up shipping.",
-		},
-
-		outcomes: {
-			whatYouWillLearn: [
-				"Branching strategies that scale.",
-				"Pull requests and code review habits.",
-				"Resolve merge conflicts confidently.",
-				"Clean history with rebase/squash (safely).",
-			],
-			whoThisCourseIsFor: ["New developers", "Teams", "Students"],
-			requirements: ["Install Git", "GitHub account"],
-			certificatesAndOutcomes: [
-				"Completion certificate",
-				"Git workflow guide",
-				"Cheat sheet",
-			],
-		},
-
-		curriculum: [
-			{
-				moduleNumber: 1,
-				title: "Git basics",
-				description: "Commits, branches, remotes.",
-			},
-			{
-				moduleNumber: 2,
-				title: "Collaboration",
-				description: "PRs, reviews, conventions.",
-			},
-			{
-				moduleNumber: 3,
-				title: "Conflicts",
-				description: "Merge conflicts and recovery.",
-			},
-			{
-				moduleNumber: 4,
-				title: "Team workflows",
-				description: "Trunk vs GitFlow, best practices.",
-			},
-		],
-
-		reviews: [
-			{ name: "Saimon R.", quote: "Now I’m not scared of conflicts anymore." },
-			{ name: "Hira K.", quote: "PR workflow explained perfectly." },
-			{ name: "Leo M.", quote: "Simple, modern, and team-focused." },
+			{ name: "Diego M.", quote: "Great projects and best practices." },
 		],
 	},
 ];
