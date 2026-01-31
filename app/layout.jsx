@@ -1,7 +1,6 @@
 import { Plus_Jakarta_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Chrome from "./components/chrome";
 
 const plusJakarta = Plus_Jakarta_Sans({
 	subsets: ["latin"],
@@ -26,9 +25,7 @@ export default function RootLayout({ children }) {
 			<body
 				className={`${plusJakarta.variable} ${playfair.variable} antialiased`}
 			>
-				<Navbar />
-				{children}
-				<Footer/>
+				<Chrome>{children}</Chrome>
 			</body>
 		</html>
 	);
