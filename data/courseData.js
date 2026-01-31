@@ -947,7 +947,7 @@ export const courses = [
 			"Work confidently with branches, pull requests, code review, and clean Git workflows.",
 
 		media: {
-			coverImage: "/images/courses/git-and-github-for-teams/cover.jpg",
+			coverImage: "/courses/gitcourse.png",
 			coverAlt: "Git branching workflow diagram",
 			previewCtaLabel: "Watch preview",
 		},
