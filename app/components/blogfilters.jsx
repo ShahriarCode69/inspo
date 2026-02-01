@@ -9,27 +9,28 @@ export default function BlogFilters() {
 						All
 					</span>
 					<span className="border border-[#7b5dff]/15 bg-white backdrop-blur-xl px-4 py-2 rounded-full text-sm">
-						Design
+						Course Design
 					</span>
 					<span className="border border-[#7b5dff]/15 bg-white backdrop-blur-xl px-4 py-2 rounded-full text-sm">
-						Growth
+						Launch
 					</span>
 					<span className="border border-[#7b5dff]/15 bg-white backdrop-blur-xl px-4 py-2 rounded-full text-sm">
-						Strategy
+						Marketing
 					</span>
 					<span className="border border-[#7b5dff]/15 bg-white backdrop-blur-xl px-4 py-2 rounded-full text-sm">
-						Leadership
+						Student Success
 					</span>
 				</div>
 
 				<div className="border border-[#7b5dff]/15 bg-white backdrop-blur-xl rounded-full px-4 py-2 text-sm flex items-center gap-2 w-full lg:w-auto">
-					<span>🔎</span>
+					<span>Search</span>
 					<input
 						className="bg-transparent outline-none placeholder:text-gray-400 w-full lg:w-[220px]"
-						placeholder="Search insights"
+						placeholder="Search articles"
 					/>
 				</div>
 			</div>
 		</section>
 	);
 }
+

@@ -29,18 +29,18 @@ const AboutHero = () => {
 				<div className="mt-16 flex items-end justify-between">
 					{/* Left images */}
 					<div className="flex items-end gap-6">
-						<div className="h-[120px] w-[190px] overflow-hidden rounded-[14px]">
+						<div className="h-[120px] w-[190px] overflow-hidden rounded-lg">
 							<img
-								src="https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=900&q=80"
+								src="/abouthero1.png"
 								alt="Golf ball on grass"
 								className="h-full w-full object-cover"
 								draggable="false"
 							/>
 						</div>
 
-						<div className="h-[120px] w-[190px] overflow-hidden rounded-[14px]">
+						<div className="h-[120px] w-[190px] overflow-hidden rounded-lg">
 							<img
-								src="https://images.unsplash.com/photo-1531315630201-bb15abeb1653?auto=format&fit=crop&w=900&q=80"
+								src="/abouthero2.png"
 								alt="Golf coaching"
 								className="h-full w-full object-cover"
 								draggable="false"
@@ -50,10 +50,10 @@ const AboutHero = () => {
 
 					{/* Right icon pills */}
 					<div className="flex items-end gap-8">
-						<IconItem icon={<IoBookSharp size={22} />} label="Unwind" />
-						<IconItem icon={<MdWork size={22} />} label="Play" />
-						<IconItem icon={<FaMoneyBillWave size={22} />} label="Games" />
-						<IconItem icon={<FaRepeat size={22} />} label="Course" />
+						<IconItem icon={<IoBookSharp size={22} />} label="Learn" />
+						<IconItem icon={<MdWork size={22} />} label="Build" />
+						<IconItem icon={<FaMoneyBillWave size={22} />} label="Ship" />
+						<IconItem icon={<FaRepeat size={22} />} label="Repeat" />
 					</div>
 				</div>
 

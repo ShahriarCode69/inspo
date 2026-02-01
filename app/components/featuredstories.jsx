@@ -7,24 +7,24 @@ export default function FeaturedStories() {
 	const cards = [
 		{
 			img: "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1000&q=80",
-			alt: "Luxury launch",
-			tag: "Growth",
-			title: "Designing premium launch rituals",
-			desc: "A calm, high-conversion approach for founders.",
+			alt: "Course launch",
+			tag: "Launch",
+			title: "Pre-sell your course in 7 days",
+			desc: "Outline, validate, and open enrollments before you record.",
 		},
 		{
 			img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1000&q=80",
-			alt: "Studio",
-			tag: "Design",
-			title: "Building a luxury product system",
-			desc: "Frameworks for polished, cohesive experiences.",
+			alt: "Lesson planning",
+			tag: "Engagement",
+			title: "Design lessons students finish",
+			desc: "Templates for cohorts, drip, and progress nudges.",
 		},
 		{
 			img: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1000&q=80",
-			alt: "Leadership",
-			tag: "Leadership",
-			title: "The calm founder operating model",
-			desc: "How high-end teams build clarity at scale.",
+			alt: "Growth planning",
+			tag: "Growth",
+			title: "Upsells that feel helpful",
+			desc: "Bundles, coaching, and community add-ons that convert.",
 		},
 	];
 
@@ -32,13 +32,13 @@ export default function FeaturedStories() {
 		<section className="mx-auto max-w-[1400px] px-6 pb-12 section">
 			<div className="flex items-center justify-between mb-6">
 				<h2 className="font-[var(--font-heading)] max-w-[12rem] md:max-w-lg tracking-[-0.02em] text-3xl">
-					Featured stories
+					Featured reads
 				</h2>
 				<button
 					type="button"
 					className="rounded-full border border-accent/30 px-4 py-2 text-sm font-medium text-accent hover:bg-accent/5"
 				>
-					View archive
+					View all posts
 				</button>
 			</div>
 

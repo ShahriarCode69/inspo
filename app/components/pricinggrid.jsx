@@ -35,10 +35,10 @@ const PriceCard = ({ title, saveTag, price, features, emphasized = false }) => {
 			<div className="space-y-1">
 				<h3 className="text-[18px] font-extrabold text-black">{title}</h3>
 				<p className="text-[12px] leading-4 text-black/45">
-					No minimum commitment
+					Everything to publish and sell
 				</p>
 				<p className="text-[12px] leading-4 text-black/45">
-					Pause or cancel anytime
+					Upgrade or cancel anytime
 				</p>
 			</div>
 
@@ -58,7 +58,7 @@ const PriceCard = ({ title, saveTag, price, features, emphasized = false }) => {
 			</ul>
 
 			<div className="mt-7">
-				<Button variant="black">
+				<Button href="/signup" variant="black">
 					Get Started
 				</Button>
 			</div>
@@ -68,26 +68,26 @@ const PriceCard = ({ title, saveTag, price, features, emphasized = false }) => {
 
 const PureCMSBar = () => {
 	return (
-		<div className="mt-6 rounded-[22px] bg-black px-7 py-6 text-white">
-			<div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-				<div>
-					<p className="text-[14px] font-extrabold text-[#b8ff4d]">Pure CMS</p>
+			<div className="mt-6 rounded-[22px] bg-black px-7 py-6 text-white">
+				<div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+					<div>
+					<p className="text-[14px] font-extrabold text-[#b8ff4d]">Enterprise</p>
 					<p className="mt-1 text-[12px] text-white/70">
-						No-code development. Without design.
+						A dedicated platform for universities and large teams.
 					</p>
 
 					<div className="mt-4 flex flex-wrap items-center gap-5 text-[12px] text-white/80">
 						<span className="flex items-center gap-2">
 							<FaCheckCircle className="text-[#b8ff4d] text-[14px]" />
-							Webflow
+							SSO + SCIM
 						</span>
 						<span className="flex items-center gap-2">
 							<FaCheckCircle className="text-[#b8ff4d] text-[14px]" />
-							Readymag
+							Custom SLAs
 						</span>
 						<span className="flex items-center gap-2">
 							<FaCheckCircle className="text-[#b8ff4d] text-[14px]" />
-							Tilda
+							White-label apps
 						</span>
 					</div>
 				</div>
@@ -95,7 +95,7 @@ const PureCMSBar = () => {
 				<div className="flex flex-col items-start gap-4 md:items-end">
 					<div className="flex items-baseline gap-1">
 						<span className="text-[40px] font-extrabold tracking-[-0.02em] text-white">
-							$2,000
+							From $499
 						</span>
 						<span className="text-[12px] font-semibold text-white/70">
 							/month
@@ -103,7 +103,7 @@ const PureCMSBar = () => {
 					</div>
 
 					<Button href='/signup' className="bg-white text-black hover:opacity-95">
-						Get Started
+						Contact Sales
 					</Button>
 				</div>
 			</div>
@@ -117,53 +117,53 @@ export const PlansSection = () => {
 			{/* Header row */}
 			<div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
 				<h2 className="text-[64px] font-extrabold leading-[0.95] tracking-[-0.03em] text-ink md:text-[84px]">
-					Plans
+					Creator Plans
 				</h2>
 
 				<div className="max-w-[340px] space-y-1 text-[12px] leading-4 text-white/80 md:pt-4">
-					<p>Choose a plan that&apos;s right for you.</p>
-					<p>Pause or cancel anytime.</p>
+					<p>Launch, market, and sell courses in one place.</p>
+					<p>Upgrade, pause, or cancel anytime.</p>
 				</div>
 			</div>
 
 			{/* Cards */}
 			<div className="mt-10 grid gap-6 md:grid-cols-3">
 				<PriceCard
-					title="Monthly"
-					price="$4,990"
+					title="Starter"
+					price="$29"
 					features={[
-						"Unlimited requests",
-						"Unlimited brands",
-						"Unlimited revisions",
-						"Free stock assets",
-						"Native source files",
+						"1 course site",
+						"Unlimited students",
+						"Basic checkout + coupons",
+						"Email broadcasts",
+						"3% platform fee",
 					]}
 				/>
 
 				<PriceCard
-					title="Quarterly"
-					saveTag="Save $1,500"
-					price="$4,490"
+					title="Growth"
+					saveTag="Most popular"
+					price="$79"
 					emphasized
 					features={[
-						"Unlimited requests",
-						"Unlimited brands",
-						"Unlimited revisions",
-						"Free stock assets",
-						"Native source files",
+						"Unlimited courses",
+						"Custom domains",
+						"Bundles & upsells",
+						"Automations + drip",
+						"0% platform fee",
 					]}
 				/>
 
 				<PriceCard
-					title="Yearly"
-					saveTag="Save $12,000"
-					price="$3,990"
+					title="Scale"
+					saveTag="For teams"
+					price="$199"
 					features={[
-						"Unlimited requests",
-						"Unlimited brands",
-						"Unlimited revisions",
-						"Free stock assets",
-						"Native source files",
+						"5 admin seats",
+						"Advanced analytics",
+						"Affiliate center",
+						"Priority support",
+						"API & webhooks",
 					]}
 				/>
 			</div>

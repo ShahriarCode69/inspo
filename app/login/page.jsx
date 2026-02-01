@@ -10,7 +10,7 @@ export default function LoginPage() {
 			</div>
 
 			<section className="relative hidden flex-col justify-between overflow-hidden px-8 pb-10 text-white lg:flex lg:pb-12">
-				<div className="absolute inset-0 bg-[url('/ctabg.jpg')] bg-cover bg-center" />
+				<div className="absolute inset-0 bg-[url('/cta2.jpg')] bg-cover bg-center" />
 				<div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/75" />
 
 				<div className="relative z-10 flex flex-col gap-6 lg:gap-8">
